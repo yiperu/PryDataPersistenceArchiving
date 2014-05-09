@@ -10,4 +10,12 @@
 
 @interface ViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UITextField *txtName;
+@property (strong, nonatomic) IBOutlet UITextField *txtAddress;
+@property (strong, nonatomic) IBOutlet UITextField *txtData;
+@property (strong, nonatomic) NSString * dataFieldPath;
+
+- (IBAction)guardarDatos:(id)sender;
+
 @end
+
